@@ -1,0 +1,13 @@
+{
+	"name": "Untitled Node.js project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+  "remoteUser": "node",
+  "forwardPorts": [5173],
+  "customizations": {
+    "vscode": {
+      "extensions": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+    }
+  }
+}
